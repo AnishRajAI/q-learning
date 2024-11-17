@@ -5,8 +5,7 @@
 To develop a Python program to find the optimal policy for the given RL environment using Q-Learning and compare the state values with the Monte Carlo method.
 
 ## PROBLEM STATEMENT
-Develop a Python program to derive the optimal policy using Q-Learning and compare state values with Monte Carlo method.
-
+The goal is to implement a Q-learning algorithm for training a reinforcement learning agent in a given environment. The agent should use an epsilon-greedy strategy for action selection, balancing exploration and exploitation. Implement decay schedules for the learning rate (alpha) and exploration rate (epsilon) over episodes. Track the evolution of the Q-values and the learned policy across episodes. Evaluate the agent's performance across multiple random seeds, computing the average Q-values, value function, and policy to assess the stability and effectiveness of the learning process.
 ## Q LEARNING ALGORITHM
 
 ### Step 1:
